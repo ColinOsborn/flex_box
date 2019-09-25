@@ -1,0 +1,17 @@
+/* Your code goes here */
+.container {
+    display: flex;
+    /* default behaivour with the flex-direction: row, but it sets up adding more specifc styles*/
+    flex-direction: row;
+    /* float: right;
+    border: 1px solid #ffff;
+    width: 100% */
+
+    /* with adding row reverse, you now flip all the elements */
+    flex-direction: row-reverse;
+}
+
+.container div {
+    float: right;
+}
+
